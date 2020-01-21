@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>OJKゼミ・キッズクラブ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ここにサイト説明を入れます">
+<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slide.css">
+<script type="text/javascript" src="js/openclose.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body id="top">
+
+<!--スライドショー-->
+<aside id="mainimg">
+<div>
+<img src="images/1.jpg" alt="" id="slide0">
+<img src="images/1.jpg" alt="" id="slide1">
+<img src="images/2.jpg" alt="" id="slide2">
+<img src="images/3.jpg" alt="" id="slide3">
+</div>
+</aside>
+
+<div id="container">
+
+<!--小さな端末用（800px以下端末）ロゴ-->
+<h1 id="logo-s"><a href="index.html"><img src="images/logo.png" alt="SAMPLE KIDS CLUB"></a></h1>
+<!--小さな端末用（800px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+
+<li><a href="warabesong.html">わらべ歌<span>WARABE　SONG</span></a></li>
+<li><a href="inaiinai.html">いないいないばあっ！<span>Peek-a-boo</span></a></li>
+<li><a href="faq.html">数の知育<span>Number education</span></a></li>
+<li><a href="contact.html">お問い合わせ<span>CONTACT</span></a></li>
+</ul>
+</nav>
+
+
+<div id="contents">
+
+<div id="main">
+
+<section id="new">
+<h2 id="newinfo_hdr" class="close">更新情報・お知らせ</h2>
+<dl id="newinfo">
+<dt>2020/01/15</dt>
+<dd>サイト公開<span class="newicon">NEW</span></dd>
+
+</dl>
+</section>
+
+<section>
+
+<h2>各ページの説明</h2>
+
+<h3>わらべ歌</h3>
+<p>わらべ歌の「ちゃつぼ」をしている女の子のアニメーションです。</p>
+
+<h3>いないいないばあっ！</h3>
+<p>かわいらしいクマがいないいないばあをします！</p>
+
+<h3>数の知育</h3>
+<p>１～３までの数と、食材の名前を覚えることを目的としています。食材は６種類あり、画像がランダムで表示されます</p>
+
+</section>
+
+</div>
+<!--/main-->
+
+<div id="sub">
+
+<!--大きな端末用（801px以上端末）ロゴ-->
+<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE KIDS CLUB"></a></h1>
+<!--大きな端末用（801px以上端末）メニュー-->
+<nav id="menubar">
+<ul class="mb30">
+<li><a href="index.html">ホーム<span>HOME</span></a></li>
+<li><a href="warabesong.html">わらべ歌<span>WARABE　SONG</span></a></li>
+<li><a href="inaiinai.html">いないいないばあっ！<span>Peek-a-boo</span></a></li>
+<li><a href="faq.html">数の知育<span>Number education</span></a></li>
+<li><a href="contact.html">お問い合わせ<span>CONTACT</span></a></li>
+</ul>
+</nav>
+
+<nav class="box1">
+<h2>LINK</h2>
+<ul class="submenu">
+<li><a href="https://twitter.com/ugok_girls">「UGOK」Twitter</a></li>
+<li><a href="https://twitter.com/ugok_y">「ゆうか🎮」Twitter</a></li>
+<li><a href="https://twitter.com/nonta_ugokgirls">「のんた🐢」Twitter</a></li>
+</ul>
+</nav>
+
+
+<!--/box1-->
+
+</div>
+<!--/sub-->
+
+<p id="pagetop"><a href="#"><img src="images/pagetop.png" alt="ページの上部へ"></a></p>
+
+</div>
+<!--/contents-->
+
+<footer>
+<small>Copyright&copy; <a href="index.html">SAMPLE KIDS CLUB</a> All Rights Reserved.</small>
+<span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</footer>
+
+</div>
+<!--/container-->
+
+<!--移動するアニメーション画像-->
+<img src="images/animation1.png" alt="" id="animation1">
+
+<!--小さな端末用（800px以下端末）更新情報-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 800) {
+	open_close("newinfo_hdr", "newinfo");
+}
+</script>
+
+<!--メニューの３本バー-->
+<div id="menubar_hdr" class="close"><span></span><span></span><span></span></div>
+<!--メニューの開閉処理条件設定　800px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 800) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+</body>
+</html>
