@@ -13,7 +13,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	color: #666;	/*全体の文字色*/
-	font-family:"Kosugi Maru" ,"ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+	font-family:"Kosugi Maru", "Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	font-size: 14px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
 	background: #fff url(../images/bg.jpg);	/*背景色と背景壁紙*/
